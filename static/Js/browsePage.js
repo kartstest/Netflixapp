@@ -55,7 +55,7 @@ function BrowsePage() {
     image.addEventListener("click", function () {
       console.log("Image clicked!");
       // Redirect to videoplayer.html when an image is clicked
-      document.location.href = "videoplayer.html";
+      document.location.href = "movie.html";
     });
   });
 
