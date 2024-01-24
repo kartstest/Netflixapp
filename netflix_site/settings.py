@@ -85,10 +85,10 @@ WSGI_APPLICATION = 'netflix_site.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'myflixdb1',
+        'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost',
+        'PASSWORD': 'admin12345',
+        'HOST': 'myflix-db1.cb6ogwoug0u5.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
